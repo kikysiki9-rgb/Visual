@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pulsevisuals",
+  "version": "${version}",
+  "name": "Pulse Visuals",
+  "description": "Клиентский визуальный мод: HUD, таргет-карточка, кольца прыжка, частицы удара.",
+  "authors": ["you"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pulsevisuals.PulseVisualsClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
